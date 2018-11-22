@@ -1,0 +1,24 @@
+{
+  "name": "microsystem",
+  "version": "1.0.0",
+  "description": "Microservice framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "tsc && node ./index.js"
+  },
+  "author": "Aleksandar Zivanovic",
+  "license": "ISC",
+  "dependencies": {
+    "@types/es6-promise": "0.0.32",
+    "mongodb": "^2.2.22",
+    "promise": "^7.1.1",
+    "randomstring": "^1.1.5",
+    "ts-node": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.5",
+    "ts-node": "^2.0.0",
+    "typescript": "^2.1.5"
+  }
+}
